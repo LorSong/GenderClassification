@@ -18,9 +18,11 @@
 2) Скопируйте файл process.py вместе с папкой model в одну директорию.
 
 ![](desc_images/folder_files.png)
+
 3) Запустите командную строку и перейдите в директорию с файлами
 
 ![](desc_images/changefolder.jpg)
+
 4) Запустите скрипт указав путь к папке с изображениями
 
 ![](desc_images/process_exec.png)
