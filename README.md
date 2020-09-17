@@ -15,7 +15,7 @@
 
 ## Описание модели
 <details>
-  <summary>Раскрыть</summary>  
+  <summary>Раскрыть</summary><br/>  
   
   В работе
 </details>
