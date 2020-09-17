@@ -11,12 +11,14 @@
   2. GenderClassification_#.ipynb - Jupyter notebooks с шагами по обучению сети
   3. process.py - cкрипт для использования нейросети
   4. model - папка с tf.model, которую использует скрипт process.py для загрузки модели
+</details>
 
 ## Описание модели
 <details>
   <summary>Раскрыть</summary>
   
   В работе
+</details>
 
 ## Инструкция по применению сети.
 <details>
@@ -34,3 +36,4 @@
   4) Запустите скрипт указав путь к папке с изображениями.
 
   ![](desc_images/process_exec.png)
+</details>
