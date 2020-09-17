@@ -1,12 +1,11 @@
 # GenderClassification
 
-Репозиторий для размещения тестового задания от NtechLab.
+Репозиторий для размещения тестового задания от NtechLab.\
 Основная работа - создание модели, которая определяет пол человека по изображению его лица.
 
 ### Описание файлов
 <details>
-  <summary>Раскрыть</summary>
-  
+  <summary>Раскрыть</summary>\
   
   1. MaxSubArray.py - содержит функцию findMaxSubArray(A) к первому заданию.
   2. GenderClassification_#.ipynb - Jupyter notebooks с шагами по обучению сети
@@ -16,16 +15,14 @@
 
 ## Описание модели
 <details>
-  <summary>Раскрыть</summary>
-  
+  <summary>Раскрыть</summary>\
   
   В работе
 </details>
 
 ## Инструкция по применению сети.
 <details>
-  <summary>Раскрыть</summary>
-  
+  <summary>Раскрыть</summary>\
   
   1) Убедитесь, что у вас установлен python с tensorflow версии 2 и выше
   2) Скопируйте файл process.py вместе с папкой model в одну директорию.
