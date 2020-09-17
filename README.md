@@ -20,4 +20,4 @@
 3) Запустите командную строку и перейдите в директорию с файлами
 ![](desc_images/changefolder.jpg)
 4) Запустите скрипт указав путь к папке с изображениями
-![](desc_images/process_exec.png.jpg)
+![](desc_images/process_exec.png)
