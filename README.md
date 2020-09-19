@@ -142,5 +142,5 @@
 <details>
   <summary>Раскрыть</summary><br/>  
   
-  В работе
+  В работе 
 </details>
