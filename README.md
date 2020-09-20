@@ -11,7 +11,7 @@
   1. MaxSubArray.py - содержит функцию findMaxSubArray(A) к первому заданию.
   2. GenderClassification_#.ipynb - Jupyter notebooks с шагами по обучению сети
   3. process.py - cкрипт для использования нейросети (инструкция ниже)
-  4. model.rar - Архив с папкой содержащей tf.model, которую использует скрипт process.py для загрузки модели
+  4. model.zip - Архив с папкой содержащей tf.model, которую использует скрипт process.py для загрузки модели
   5. train.py - скрипт для обучения нейросети, который создает папку model (инструкция ниже). 
   6. Gender_clf_utils.py - дополнительные функции, используются в Jupyter notebooks
   7. test_images - 5 изображений из тренировочных данных.
