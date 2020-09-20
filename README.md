@@ -158,11 +158,15 @@
 
   3) Запустите командную строку и перейдите в директорию с файлами. 
 
-  ![](desc_images/changefolder.jpg)
+  ```
+  - > cd f:\my_folder_with_files
+  ```
 
   4) Запустите скрипт, указав путь к папке с изображениями.
 
-  ![](desc_images/process_exec.png)
+  ```
+  - > python process.py path/to/images
+  ```
 
   5) После выполнения, в папке со скриптом появится новый файл process_results.json. В нем будут размещены результаты
   в виде { ‘img_1.jpg’: ‘male’, ‘img_2.jpg’: ‘female’, ...}
