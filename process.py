@@ -3,10 +3,11 @@ import importlib
 import os
 import sys
 import json
-import tensorflow as tf
-
 # Silencing tensorflow warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
+import tensorflow as tf
+# Silencing tensorflow depreciation warnings
 from tensorflow.python.util import deprecation
 deprecation._PRINT_DEPRECATION_WARNINGS = False
 
