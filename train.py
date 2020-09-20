@@ -1,11 +1,11 @@
 import os
 import sys
 import numpy as np
-import tensorflow as tf
-import tensorflow_hub as hub
 # Silencing tensorflow warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
+import tensorflow as tf
+import tensorflow_hub as hub
 if tf.__version__ != "2.3.0":
     print("TF version is not 2.3.0, behavior may not be correct")
 
