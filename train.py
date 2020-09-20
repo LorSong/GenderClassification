@@ -1,19 +1,16 @@
 import os
-# Silencing tensorflow warnings
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import sys
-
 import numpy as np
 import tensorflow as tf
+import tensorflow_hub as hub
+
 if tf.__version__ != "2.3.0":
     print("TF version is not 2.3.0, behavior may not be correct")
 
-# Silencing tensorflow depreciation warnings
+# Silencing tensorflow warnings
 from tensorflow.python.util import deprecation
 deprecation._PRINT_DEPRECATION_WARNINGS = False
-
-
-import tensorflow_hub as hub
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 def create_dataset(data_dir):  
     # Generator that performs data augmentation
@@ -34,7 +31,6 @@ def create_dataset(data_dir):
     
     return train_generator
     
-
 def warmup_scheduler(epoch, lr):
     if epoch < 20:
         return lr * 1.6
@@ -87,8 +83,7 @@ def train_and_save(data):
     # Saving model
     model_path = "./model"
     model.save(model_path)
-    
-    
+        
     # Uniting and saving histories
     h1 = freezed_history.history
     h2 = unfreezed_history.history
