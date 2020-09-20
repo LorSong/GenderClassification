@@ -1,14 +1,16 @@
 import os
 # Silencing tensorflow warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
-
+import sys
 
 import numpy as np
 import tensorflow as tf
 if tf.__version__ != "2.3.0":
     print("TF version is not 2.3.0, behavior may not be correct")
 
-tf.get_logger().setLevel('INFO')
+# Silencing tensorflow depreciation warnings
+from tensorflow.python.util import deprecation
+deprecation._PRINT_DEPRECATION_WARNINGS = False
 
 
 import tensorflow_hub as hub
