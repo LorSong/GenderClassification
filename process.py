@@ -3,14 +3,15 @@ import importlib
 import os
 import sys
 import json
+import tensorflow as tf
+
 # Silencing tensorflow warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
-
-import tensorflow as tf
+from tensorflow.python.util import deprecation
+deprecation._PRINT_DEPRECATION_WARNINGS = False
 
 if tf.__version__ != "2.3.0":
     print("TF version is not 2.3.0, behavior may not be correct")
-
 
 def find_images(folder_path):
     """
@@ -77,7 +78,6 @@ def find_and_process_images(path_to_images):
     else:
         print("Error: no .jpg or .jpeg files were found. Check the path")
 
-
 def main():
     # Taking path argument            
     try:
@@ -99,8 +99,7 @@ def main():
           print(e)
           
     find_and_process_images(path_to_images)
-    
-    
+       
 if __name__ == "__main__": 
     main()
     
