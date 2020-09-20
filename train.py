@@ -3,14 +3,16 @@ import sys
 import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
+# Silencing tensorflow warnings
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 
 if tf.__version__ != "2.3.0":
     print("TF version is not 2.3.0, behavior may not be correct")
 
-# Silencing tensorflow warnings
+# Silencing tensorflow depreciation warnings
 from tensorflow.python.util import deprecation
 deprecation._PRINT_DEPRECATION_WARNINGS = False
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
 
 def create_dataset(data_dir):  
     # Generator that performs data augmentation
