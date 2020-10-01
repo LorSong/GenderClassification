@@ -1,21 +1,22 @@
 # GenderClassification
+This repository describes my workflow for developing model that is capable of determining person's gender by the picture of their face.
+Descriptions were made in Russian. Model has more than 98% of accuracy and were trained using TensorFlow framework.
 
-Репозиторий для размещения тестового задания от NtechLab.<br/>    
-Основная работа - создание модели, которая определяет пол человека по изображению его лица.<br/>  
-Основной фреймворк - TensorFlow 2 
+
+В данном репозитории размещена моя работа по созданию модели, которая определяет пол человека по изображению его лица.<br/>   
+Модель имеет свыше 98% точности. Основной фреймворк - TensorFlow 2 
 
 ## Описание файлов
 <details>
   <summary>Раскрыть</summary><br/>
   
-  1. MaxSubArray.py - содержит функцию findMaxSubArray(A) к первому заданию.
-  2. GenderClassification_#.ipynb - Jupyter notebooks с шагами по обучению сети
-  3. process.py - cкрипт для использования нейросети (инструкция ниже)
-  4. model.zip - Архив с папкой содержащей tf.model, которую использует скрипт process.py для загрузки модели
-  5. train.py - скрипт для обучения нейросети, который создает папку model (инструкция ниже). 
-  6. Gender_clf_utils.py - дополнительные функции, используются в Jupyter notebooks
-  7. test_images - 5 изображений из тренировочных данных.
-  8. requirements.txt - используемые библиотеки
+  1. GenderClassification_#.ipynb - Jupyter notebooks с шагами по обучению сети
+  2. process.py - cкрипт для использования нейросети (инструкция ниже)
+  3. model.zip - Архив с папкой содержащей tf.model, которую использует скрипт process.py для загрузки модели
+  4. train.py - скрипт для обучения нейросети, который создает папку model (инструкция ниже). 
+  5. Gender_clf_utils.py - дополнительные функции, используются в Jupyter notebooks
+  6. test_images - 5 изображений из тренировочных данных.
+  7. requirements.txt - используемые библиотеки
 </details>
 
 ## Описание хода работы
